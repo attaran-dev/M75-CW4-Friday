@@ -1,4 +1,4 @@
-const alphabet = [
+let alphabet = [
   "A",
   "B",
   "C",
@@ -26,5 +26,6 @@ const alphabet = [
   "Y",
   "Z",
 ];
-const result = alphabet.filter(a=>indexOf(a)%2===1);
+
+const result = alphabet.filter(a=>((alphabet.indexOf(a)%2)===1));
 console.log(result);
